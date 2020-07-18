@@ -4,6 +4,9 @@
 
 /* for crownit */
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+/* r|e */
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -116,25 +119,32 @@ body{
     
     .topnav a.active {
         /* background-color: #4CAF50; */
-        background-image: url(https://drive.google.com/thumbnail?id=1TjxIR332IdfQoU5mqvcuHxKylF6ngFwC);
+        /* background-image: url(https://drive.google.com/thumbnail?id=1TjxIR332IdfQoU5mqvcuHxKylF6ngFwC); */
+        font-family: 'Grenze Gotisch', cursive;
         color: white;
         /* font-family: 'Cormorant Unicase', serif; */
         /* font-weight: 700; */
-        /* font-size: 18px; */
-        background-position: center;
-        background-size: cover;
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, #000000 50%, rgb(252, 5, 26) 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* background-position: center; */
+        /* background-size: cover; */
         /* font-size: bolder; */
         width: 80px;
-        height: 60px;
+        height: 50px;
     }
     
     .topnav .icon {
         display: none;
         color: #000;
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        /* width: 60px; */
         /* margin-right: 10px; */
-        line-height: 30px;   
+        /* line-height: 30px;    */
     }
 
     .container{
