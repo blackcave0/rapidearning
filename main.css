@@ -99,7 +99,8 @@ body{
     .topnav a {
         float: left;
         display: block;
-        color: #f2f2f2;
+        /* color: #f2f2f2; */
+        color: #000;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -131,6 +132,8 @@ body{
         display: none;
         color: #000;
         height: 60px;
+        width: 60px;
+        /* margin-right: 10px; */
         line-height: 30px;   
     }
 
@@ -143,17 +146,14 @@ body{
         margin: 0;
     }
 
-    /* .logo{ */
-        
-    /* } */
     .site-name{
         /* position: absolute; */
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 12px;
-        margin: 0 0;
-        margin-right: 40px;
+        /* margin: 0 0; */
+        margin-right: 90px;
         /* margin-top: -60px; */
         font-family: 'Gugi', cursive;
         /* background: #f68685; */
@@ -166,8 +166,8 @@ body{
     }
 
     .site-name .site-icon{
-        width: 60px;
-        margin-left: -1px;
+        width: 40px;
+        margin-left: 9px;
     }
 
     .description{
@@ -181,6 +181,7 @@ body{
         background: #ceced8;
         border-radius: 15px;
         height: 150px;
+        box-shadow: 0 0 10px rgb(162, 255, 55);
     }
     .crown{
         /* position: absolute; */
