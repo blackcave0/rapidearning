@@ -108,6 +108,8 @@ body{
         padding: 14px 16px;
         text-decoration: none;
         font-size: 27px;
+        font-family: 'Lato', sans-serif;
+
     }
     
     .topnav a:hover {
@@ -119,8 +121,11 @@ body{
     }
     
     .topnav .back{
-        background: #fff;
+        /* background: #f1f5b8; */
+        background: linear-gradient(to right, #e5f0ab 10%, #7dcafd 100%);
+        /* color: #fff; */
         font-size: 17px;
+        font-weight: bold;
     }
     .topnav a.active {
         /* background-color: #4CAF50; */
@@ -129,7 +134,7 @@ body{
         color: white;
         /* font-family: 'Cormorant Unicase', serif; */
         /* font-weight: 700; */
-        font-size: 46px;
+        font-size: 36px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -188,7 +193,8 @@ body{
         /* background: #a5f5d6; */
         /* background: #ceced8; */
         /* background: #000000; */
-        color: #fff;
+        /* color: rgb(250, 195, 118); */
+        color: #90ecac;
         border-radius: 15px;
         height: 150px;
         /* color: #fff; */
