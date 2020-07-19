@@ -198,7 +198,8 @@ body{
         justify-content: center;
         align-items: center;
         text-align: center ;
-        margin: 20px 20px;
+        margin: 0 20px;
+        margin-top: 30px;
         font-family: 'Lato', sans-serif;
         /* background: #a5f5d6; */
         /* background: #ceced8; */
@@ -219,7 +220,8 @@ body{
         width: 100%;
         font-weight: bold;
         height: 50px;
-        margin: 30px 0;
+        /* margin: 30px 0; */
+        margin-top: 90px;
         justify-content: center;
         align-items: center;
         color: #fff;
@@ -236,14 +238,14 @@ body{
         /* width: 310px; */
         /* height: 180px; */
         width: 100px;
-        height: 150px;
+        height: 152px;
         margin-left: 15px;
         margin-top: 48px;
         /* margin: 20px; */
     }
 
     .description1{
-        margin: 0 10px;
+        margin: 0 6px;
         margin-top: 15px;
         font-size: 16px;
         text-align: justify;
@@ -253,6 +255,12 @@ body{
     .description1 h2{
         font-size: 20px;
         margin-left: -110px;
+        /* background: #7dcafd; */
+        /* height: 40px; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* color: #000; */
         /* font-family: 'Rowdies', cursive; */
         font-family: 'Raleway', sans-serif;
         margin-bottom: 5px;
@@ -270,10 +278,10 @@ body{
         /* margin-left: -110px; */
         text-decoration: none;
         /* background: rgb(119, 162, 255); */
-        /* background: rgb(70, 156, 255); */
+        background: rgb(70, 156, 255);
 
         font-family: 'Cairo', sans-serif;
-        box-shadow: 0 0 10px #ffffff;
+        /* box-shadow: 0 0 10px #ffffff; */
     }
 
 
