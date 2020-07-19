@@ -192,6 +192,18 @@ body{
         /* color: #fff; */
         box-shadow: 0 0 10px rgb(255, 255, 255);
     }
+
+    .offer{
+        display: flex;
+        background: rgb(70, 156, 255);
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+
+    }
     .crown{
         display: flex;
         margin-top: 30px;
