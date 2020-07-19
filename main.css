@@ -278,10 +278,10 @@ body{
         /* margin-left: -110px; */
         text-decoration: none;
         /* background: rgb(119, 162, 255); */
-        background: rgb(70, 156, 255);
+        /* background: rgb(70, 156, 255); */
 
         font-family: 'Cairo', sans-serif;
-        /* box-shadow: 0 0 10px #ffffff; */
+        box-shadow: 0 0 10px #ffffff;
     }
 
 
