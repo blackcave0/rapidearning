@@ -252,15 +252,19 @@ body{
         font-family: 'Lato', sans-serif;
         color: #ffffff;
     }
+
     .description1 h2{
+        /* position: absolute; */
+        display: flex;
         font-size: 20px;
         margin-left: -110px;
+        /* margin-top: 15px; */
         /* background: #7dcafd; */
         /* height: 40px; */
         /* display: flex; */
         /* align-items: center; */
         /* justify-content: center; */
-        /* color: #000; */
+        /* color: #fff; */
         /* font-family: 'Rowdies', cursive; */
         font-family: 'Raleway', sans-serif;
         margin-bottom: 5px;
@@ -275,13 +279,14 @@ body{
         font-weight: bold;
         justify-content: center;
         align-items: center;
-        /* margin-left: -110px; */
+        /* margin-left: 15px; */
         text-decoration: none;
-        /* background: rgb(119, 162, 255); */
-        /* background: rgb(70, 156, 255); */
+        /* background: rgb(48, 91, 99); */
+        background: rgb(70, 156, 255);
+        /* background: #f2f2f2; */
 
         font-family: 'Cairo', sans-serif;
-        box-shadow: 0 0 10px #ffffff;
+        /* box-shadow: 0 0 10px #ffffff; */
     }
 
 
