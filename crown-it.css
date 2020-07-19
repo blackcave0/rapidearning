@@ -246,4 +246,44 @@
         /* font-weight: bold; */
         margin: 0 20px;
     }
+
+    /* contact */
+    .container .contact{
+        /* background: #f2f2f2; */
+        width: 360px;
+        height: auto;
+        text-align: center;
+        margin-top: 50px;
+        box-shadow: 0 0 5px #07f89c;
+    }
+    .cont-name{
+        display: flex;
+        color: #fff;
+        justify-content: center;
+        font-size: 18px;
+        margin-top: 49px;
+        padding-bottom: 9px;
+        white-space: pre-wrap;
+    }
+
+    .contact a{
+        margin: 0 15px 0;
+        display: inline-block;
+        color: #000;
+        border-radius: 50%;
+        background: white;
+        width: 40px;
+        height: 40px;
+        line-height: 35px;
+        font-size: 18px;
+        position: relative;
+        text-align: center;
+        top: 25px;
+        box-shadow: 0 0 10px #f2f2f2;
+    }
+    .icon1{
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+
 }
