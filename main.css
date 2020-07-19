@@ -88,8 +88,8 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background: #f1f1f1; */
-        background: #2e2828;
+        background: #3d3b3b;
+        /* background: #2e2828; */
     }
 
     .topnav {
@@ -136,9 +136,6 @@ body{
         background: linear-gradient(to right, #ffffff 50%, rgb(253, 93, 0) 50%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        /* background-position: center; */
-        /* background-size: cover; */
-        /* font-size: bolder; */
         width: 80px;
         height: 50px;
     }
@@ -162,22 +159,14 @@ body{
     }
 
     .site-name{
-        /* position: absolute; */
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 15px;
-        /* margin: 0 0; */
         margin-right: 70px;
-        /* margin-top: -60px; */
         font-family: 'Gugi', cursive;
-        /* background: #f68685; */
-        /* background: #ff7a89; */
         width: 250px;
         height: 70px;
-        /* border-radius: 20px; */
-        /* box-shadow: 0 0 10px #000; */
-        /* color: #ffffff; */
         background: linear-gradient(to right, #fd6dd9, #25ff66, #0575c0);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -188,7 +177,7 @@ body{
         margin-left: 9px;
     }
 
-    .description{
+    .welcome{
         display: flex;
         font-size: large;
         justify-content: center;
@@ -196,33 +185,26 @@ body{
         text-align: center ;
         margin: 20px 20px;
         font-family: 'Lato', sans-serif;
-        background: #ceced8;
+        background: #a5f5d6;
+        /* background: #ceced8; */
         border-radius: 15px;
         height: 150px;
-        box-shadow: 0 0 10px rgb(162, 255, 55);
+        /* color: #fff; */
+        box-shadow: 0 0 10px rgb(255, 255, 255);
     }
     .crown{
-        /* position: absolute; */
         display: flex;
-        /* justify-content: -190px; */
-        /* align-items: flex-start; */
         margin-top: 30px;
-        /* margin-right: 90px; */
     }
     .img{
-        /* position:  absolute; */
         width: 310px;
         height: 180px;
-        /* display: flex; */
-        /* justify-content: ; */
-        /* align-items: ; */
     }
 
     .description1{
         margin: 0 20px;
         margin-top: 60px;
         font-size: 16px;
-        /* display: flex; */
         text-align: justify;
         font-family: 'Lato', sans-serif;
         color: #ffffff;
