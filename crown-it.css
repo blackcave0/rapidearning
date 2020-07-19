@@ -16,6 +16,8 @@
 /* button  */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:wght@600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -176,6 +178,8 @@
         white-space: pre-wrap;
         color: #fff;
         margin-top: 30px;
+        /* font-family: 'Playfair Display', serif; */
+        font-family: 'Monda', sans-serif;
         background: linear-gradient(to right, #a0f3e8 50%, #ff2600 50%);
     }
     .txt1{
@@ -241,10 +245,11 @@
         width: 130px;
         height: 40px;
         background: #3fadf7;
-        color: #000;
+        color: #fff;
         font-size: 18px;
-        /* font-weight: bold; */
+        font-weight: bold;
         margin: 0 20px;
+        font-family: 'Noto Serif', serif;
     }
 
     /* contact */
