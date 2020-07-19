@@ -214,14 +214,23 @@ body{
         margin-bottom: 10px;
     }
 
-
+    .button{
+        display: flex;
+        width: 180px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background: #fff;
+    }
 
     /* contact */
     .container .contact{
         background: #f2f2f2;
         width: 360px;
         height: auto;
-
+        position: relative;
+        top: 20rem;
         text-align: center;
     }
     .cont-name{
@@ -252,4 +261,6 @@ body{
         padding: 10px 10px;
         font-size: 20px;
     }
+
+    
 }
