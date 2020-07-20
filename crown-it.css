@@ -193,9 +193,7 @@
     img{
         width: 200px;
         height: 150px;
-        /* margin-left: 15px; */
         margin-top: 48px;        
-        /* box-shadow: 0 0 15px #5fccf7; */
     }
 
     .step .screenshot{
@@ -205,8 +203,7 @@
     }
 
     .step .screenshot2{
-        height: 300px;;
-        /* display: flex; */
+        height: 300px;
         margin: 10px 50px;
     }
 
@@ -237,7 +234,7 @@
         margin: 0 20px;
     }
     
-    .step a{
+    .step a:not(.a-gallery){
         display: flex;
         justify-content: center;
         align-items: center;
