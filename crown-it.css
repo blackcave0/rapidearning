@@ -234,7 +234,7 @@
         margin: 0 20px;
     }
     
-    .step a:not(.a-gallery){
+    .step a{
         display: flex;
         justify-content: center;
         align-items: center;
