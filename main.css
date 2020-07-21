@@ -99,8 +99,9 @@ body{
         justify-content: center;
         align-items: center;
         background: #2e2828;
+        
     }
-
+    
     .topnav {
         overflow: hidden;
         /* background-color: #333; */
@@ -253,6 +254,9 @@ body{
         color: #ffffff;
     }
 
+    .description1 b{
+        color: #e9ff25;
+    }
     .description1 h2{
         /* position: absolute; */
         display: flex;
