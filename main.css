@@ -13,6 +13,9 @@
 /* offer  */
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
 
+/* description1  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 /* button  */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
 
@@ -260,8 +263,8 @@ body{
     .description1 h2{
         /* position: absolute; */
         display: flex;
-        font-size: 20px;
-        margin-left: -110px;
+        font-size: 18px;
+        margin-left: -106px;
         /* margin-top: 15px; */
         /* background: #7dcafd; */
         /* height: 40px; */
@@ -269,8 +272,9 @@ body{
         /* align-items: center; */
         /* justify-content: center; */
         /* color: #fff; */
-        /* font-family: 'Rowdies', cursive; */
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        /* font-family:  cursive; */
+        /* font-family: 'Raleway', sans-serif; */
         margin-bottom: 5px;
     }
 
@@ -283,14 +287,10 @@ body{
         font-weight: bold;
         justify-content: center;
         align-items: center;
-        /* margin-left: 15px; */
         text-decoration: none;
-        /* background: rgb(48, 91, 99); */
         background: rgb(70, 156, 255);
-        /* background: #f2f2f2; */
-
         font-family: 'Cairo', sans-serif;
-        /* box-shadow: 0 0 10px #ffffff; */
+        margin-top: 2px;
     }
 
 
@@ -353,7 +353,7 @@ body{
         width: 360px;
         height: auto;
         text-align: center;
-        margin-top: 300px;
+        margin-top: 100px;
         box-shadow: 0 0 5px #07f89c;
     }
     .cont-name{
